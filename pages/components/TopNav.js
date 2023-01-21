@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 function TopNav() {
   return (
@@ -37,9 +38,9 @@ function TopNav() {
                         <div className="menu-wrap">
                             <nav className="menu-nav show">
                                 <div className="logo">
-                                    <a href="/">
+                                    <Link href="/">
                                         <img src="/assets/img/logo/logo.png" alt="Logo" />
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="navbar-wrap main-menu d-none d-lg-flex">
                                     <ul className="navigation">
@@ -78,7 +79,7 @@ function TopNav() {
                             <div className="close-btn"><i className="fas fa-times"></i></div>
 
                             <nav className="menu-box">
-                                <div className="nav-logo"><a href="/"><img src="/assets/img/logo/logo.png" alt="" title="" /></a>
+                                <div className="nav-logo"><Link href="/"><img src="/assets/img/logo/logo.png" alt="" title="" /></Link>
                                 </div>
                                 <div className="menu-outer">
                                 </div>
