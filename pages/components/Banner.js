@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Banner() {
+function Banner({handleShow, setVideoUrl}) {
   return (
     <section className="slider-area slider-bg" style={{backgroundImage: "url(/assets/img/banner/s_slider_bg.jpg)" }} >
         <div className="slider-active">
@@ -32,7 +32,10 @@ function Banner() {
                                         </li>
                                     </ul>
                                 </div>
-                                <a href="https://www.youtube.com/watch?v=R2gbPxeNk2E" className="banner-btn btn popup-video"><i className="fas fa-play"></i> Watch Now</a>
+                                <button onClick={() => {
+                                    setVideoUrl('https://www.eporner.com/embed/hOFmu0rywqW/');
+                                    handleShow()
+                                }} className="banner-btn btn popup-video"><i className="fas fa-play"></i> Watch Now</button>
                             </div>
                         </div>
                     </div>

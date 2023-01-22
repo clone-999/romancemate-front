@@ -44,7 +44,7 @@ function TopNav() {
                                 </div>
                                 <div className="navbar-wrap main-menu d-none d-lg-flex">
                                     <ul className="navigation">
-                                        <li className="active menu-item-has-children"><a href="#">Home</a></li>
+                                        <li className="active menu-item-has-children"><Link href="/">Home</Link></li>
                                     </ul>
                                 </div>
 

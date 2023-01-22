@@ -32,7 +32,7 @@ const Home = () => {
     <>
       <TopNav />
       <main>
-        <Banner />
+        <Banner handleShow={handleShow} setVideoUrl={setVideoUrl} />
 
         <section className="ucm-area ucm-bg2" style={{backgroundImage: "url(/assets/img/bg/ucm_bg02.jpg)"}}>
           <div className="container">
